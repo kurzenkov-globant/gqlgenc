@@ -3,8 +3,8 @@ package example
 import (
 	"context"
 	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/infiotinc/gqlgenc/client/extensions"
-	"github.com/infiotinc/gqlgenc/client/transport"
+	"github.com/kurzenkov-globant/gqlgenc/client/extensions"
+	"github.com/kurzenkov-globant/gqlgenc/client/transport"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

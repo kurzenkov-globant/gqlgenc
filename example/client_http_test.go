@@ -3,8 +3,8 @@ package example
 import (
 	"context"
 	"encoding/json"
-	"github.com/infiotinc/gqlgenc/client"
-	"github.com/infiotinc/gqlgenc/client/transport"
+	"github.com/kurzenkov-globant/gqlgenc/client"
+	"github.com/kurzenkov-globant/gqlgenc/client/transport"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

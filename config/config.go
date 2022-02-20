@@ -5,9 +5,9 @@ package config
 import (
 	"context"
 	"fmt"
-	"github.com/infiotinc/gqlgenc/client"
-	"github.com/infiotinc/gqlgenc/client/transport"
-	"github.com/infiotinc/gqlgenc/introspection"
+	"github.com/kurzenkov-globant/gqlgenc/client"
+	"github.com/kurzenkov-globant/gqlgenc/client/transport"
+	"github.com/kurzenkov-globant/gqlgenc/introspection"
 	"io/ioutil"
 	"net/http"
 	"os"

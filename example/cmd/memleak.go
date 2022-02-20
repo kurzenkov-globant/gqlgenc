@@ -13,9 +13,9 @@ import (
 	htransport "github.com/99designs/gqlgen/graphql/handler/transport"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/gorilla/websocket"
-	"github.com/infiotinc/gqlgenc/client"
-	"github.com/infiotinc/gqlgenc/client/extensions"
-	"github.com/infiotinc/gqlgenc/client/transport"
+	"github.com/kurzenkov-globant/gqlgenc/client"
+	"github.com/kurzenkov-globant/gqlgenc/client/extensions"
+	"github.com/kurzenkov-globant/gqlgenc/client/transport"
 	"net/http"
 	_ "net/http/pprof" // Register the pprof handlers
 	"runtime"

@@ -3,7 +3,7 @@ package clientgen
 import (
 	"bytes"
 	"fmt"
-	"github.com/infiotinc/gqlgenc/config"
+	"github.com/kurzenkov-globant/gqlgenc/config"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/formatter"
 	"go/types"

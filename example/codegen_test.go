@@ -3,8 +3,8 @@ package example
 import (
 	"context"
 	"example/client"
-	client2 "github.com/infiotinc/gqlgenc/client"
-	"github.com/infiotinc/gqlgenc/client/transport"
+	client2 "github.com/kurzenkov-globant/gqlgenc/client"
+	"github.com/kurzenkov-globant/gqlgenc/client/transport"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http/httptest"

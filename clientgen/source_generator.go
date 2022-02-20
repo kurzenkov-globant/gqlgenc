@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/99designs/gqlgen/codegen/config"
 	"github.com/99designs/gqlgen/codegen/templates"
-	config2 "github.com/infiotinc/gqlgenc/config"
+	config2 "github.com/kurzenkov-globant/gqlgenc/config"
 	"github.com/vektah/gqlparser/v2/ast"
 	"go/types"
 	"math"
