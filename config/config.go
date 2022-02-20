@@ -151,6 +151,7 @@ func LoadConfig(filename string) (*Config, error) {
 		return nil, fmt.Errorf("neither 'schema' nor 'endpoint' specified. Use schema to load from a local file, use endpoint to load from a remote server (using introspection)")
 	}
 
+	foundedSchemaFilename := StringList{}
 	// https://github.com/99designs/gqlgen/blob/3a31a752df764738b1f6e99408df3b169d514784/codegen/config/config.go#L120
 	for _, f := range cfg.SchemaFilename {
 		var matches []string
@@ -191,9 +192,9 @@ func LoadConfig(filename string) (*Config, error) {
 			}
 		}
 
-		cfg.SchemaFilename = files
+		foundedSchemaFilename = append(foundedSchemaFilename, files...)
 	}
-
+	cfg.SchemaFilename = foundedSchemaFilename
 	models := make(config.TypeMap)
 	if cfg.Models != nil {
 		for k, v := range cfg.Models {
